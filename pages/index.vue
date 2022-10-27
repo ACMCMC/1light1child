@@ -1,6 +1,6 @@
 <template>
-  <main>
-    <h1>One Light, One Child</h1>
+  <main class="grid h-screen place-items-center">
+    <h1 class="border-current font-bold">One Light, One Child</h1>
     <h2>San Salvatore Hike</h2>
   </main>
 </template>
