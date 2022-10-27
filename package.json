@@ -1,13 +1,13 @@
 {
-  "name": "nuxt-netlifycms",
+  "name": "1light1child",
   "version": "0.0.1",
-  "description": "Yo",
-  "author": "Gomah",
+  "description": "One Light, One Child - San Salvatore Hike",
+  "author": "acmc",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts -o",
     "build": "nuxt-ts build",
-    "start": " nuxt-ts start",
+    "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
     "test:lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore app/",
     "test:unit": "cross-env BABEL_ENV=test jest --coverage",
@@ -71,6 +71,7 @@
     "prettier": "^2.0.5",
     "sass-loader": "^9.0.1",
     "ts-jest": "^26.1.1",
-    "vue-jest": "^3.0.6"
+    "vue-jest": "^3.0.6",
+    "webpack": "^4.46.0"
   }
 }
