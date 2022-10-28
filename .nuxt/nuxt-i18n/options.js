@@ -10,7 +10,7 @@ export const nuxtOptions = {
   trailingSlash: undefined,
 }
 export const options = {
-  vueI18n: {"fallbackLocale":"it","messages":{"en":{"message":{"find_out_more":"Find out more","event_date":"November 26th, 2022"}},"it":{"message":{"find_out_more":"Scopri di più","event_date":"26 novembre, 2022"}}}},
+  vueI18n: {"fallbackLocale":"it","messages":{"en":{"message":{"find_out_more":"Find out more","event_date":"November 26th, 2022","copyright_notice":"© 2022. Association One Light, One Child"}},"it":{"message":{"find_out_more":"Scopri di più","event_date":"26 novembre, 2022","copyright_notice":"© 2022. Association One Light, One Child"}}}},
   vueI18nLoader: false,
   locales: ["en","it"],
   defaultLocale: "it",

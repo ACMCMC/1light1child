@@ -1,7 +1,7 @@
 <template>
-  <main class="bg-white md:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  flex items-center justify-center h-screen">
+  <main class="bg-white md:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-screen w-screen flex flex-col justify-center items-center pt-16">
     <!--<div class="bg-gradient-to-r from-purple-500 to-pink-500 text-black grid p-12 rounded-lg text-white">-->
-    <div class="bg-white text-black grid p-12 rounded-lg md:max-w-md">
+    <div class="bg-white text-black grid p-8 rounded-lg md:max-w-md">
       <div class="px-4">
         <h1 class="font-bold mb-4 text-4xl">One Light, One Child</h1>
         <h2 class="font-bold mb-4">San Salvatore Hike</h2>
@@ -15,6 +15,7 @@
         {{ $t('message.find_out_more') }}
       </a>
     </div>
+    <p class="mt-12 mb-6 px-auto text-black md:text-white text-xs">{{ $t('message.copyright_notice') }}</p>
   </main>
 </template>
 

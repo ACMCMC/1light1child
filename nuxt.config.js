@@ -58,12 +58,14 @@ export default {
           message: {
             find_out_more: 'Find out more',
             event_date: 'November 26th, 2022',
+            copyright_notice: '© 2022. Association One Light, One Child',
           }
         },
         it: {
           message: {
             find_out_more: 'Scopri di più',
             event_date: '26 novembre, 2022',
+            copyright_notice: '© 2022. Association One Light, One Child',
           }
         }
       }
