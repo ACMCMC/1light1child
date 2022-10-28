@@ -59,7 +59,8 @@ export default {
             find_out_more: 'Find out more',
             event_date: 'November 26th, 2022',
             copyright_notice: '© 2022. Association One Light, One Child',
-            all_income_to_charity: 'Charity event. All net earnings will be donated to <a href="https://www.marysmeals.org/">Mary’s Meals</a> to serve nutritious school meals to children living in some of the world’s poorest countries. The promise of a good meal attracts these hungry children into the classroom, giving them the energy to learn and hope for a better future.',
+            charity_event: 'Charity event.',
+            all_income_to_charity: 'All net earnings will be donated to {link} to serve nutritious school meals to children living in some of the world’s poorest countries. The promise of a good meal attracts these hungry children into the classroom, giving them the energy to learn and hope for a better future.',
           }
         },
         it: {
@@ -67,7 +68,8 @@ export default {
             find_out_more: 'Scopri di più',
             event_date: '26 novembre, 2022',
             copyright_notice: '© 2022. Association One Light, One Child',
-            all_income_to_charity: 'Evento di beneficenza. Tutti i guadagni netti saranno devoluti a {link} per servire pasti scolastici nutrienti ai bambini che vivono in alcuni dei paesi più poveri del mondo. La promessa di un buon pasto attira questi bambini affamati in classe, dando loro l’energia per imparare e sperare in un futuro migliore.',
+            charity_event: 'Evento di beneficenza.',
+            all_income_to_charity: 'Tutti i guadagni netti saranno devoluti a {link} per servire pasti scolastici nutrienti ai bambini che vivono in alcuni dei paesi più poveri del mondo. La promessa di un buon pasto attira questi bambini affamati in classe, dando loro l’energia per imparare e sperare in un futuro migliore.',
           }
         }
       }
