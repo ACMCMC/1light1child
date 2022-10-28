@@ -1,6 +1,13 @@
 [
   {
-    "name": "index",
+    "name": "index___en",
+    "path": "/en",
+    "component": "/home/acmc/repos/1light1child/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_961fd4a4"
+  },
+  {
+    "name": "index___it",
     "path": "/",
     "component": "/home/acmc/repos/1light1child/pages/index.vue",
     "chunkName": "pages/index",

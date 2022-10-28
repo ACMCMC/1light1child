@@ -1,4 +1,4 @@
-
+export { default as Hero } from '../../components/hero.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

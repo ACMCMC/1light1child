@@ -1,14 +1,13 @@
 <template>
-  <main class="grid h-screen place-items-center">
-    <h1 class="border-current font-bold">One Light, One Child</h1>
-    <h2>San Salvatore Hike</h2>
-  </main>
+  <Hero></Hero>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import Hero from '~/components/hero.vue';
 
 export default Vue.extend({
-  name: 'IndexPage'
+    name: "Welcome",
+    components: { Hero }
 })
 </script>
