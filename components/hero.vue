@@ -8,8 +8,9 @@
         <h2 class="font-bold mb-4">{{ $t('message.event_date') }}</h2>
       </div>
       <img class="mb-4 rounded-lg" src="/background.png"/>
+      <h2 class="mb-8 px-4 text-sm font-semibold">{{ $t('message.all_income_to_charity', { 'link': 'Mary’s Meals'}) }}</h2>
       <a type="button"
-        class="ease-in-out text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-0 dark:bg-white dark:hover:bg-slate-700 focus:outline-none dark:focus:ring-slate-800"
+        class="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-0 dark:bg-white dark:hover:bg-slate-700 focus:outline-none dark:focus:ring-slate-800"
         href="https://www.marysmeals.es/captacion-de-fondos/su-cuenta"
       >
         {{ $t('message.find_out_more') }}
