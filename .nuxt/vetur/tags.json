@@ -1,5 +1,8 @@
 {
-  "Hero": {
-    "description": "Auto imported from components/hero.vue"
+  "Card": {
+    "description": "Auto imported from components/card.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/navbar.vue"
   }
 }

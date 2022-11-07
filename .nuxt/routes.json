@@ -1,10 +1,24 @@
 [
   {
+    "name": "about___it",
+    "path": "/about",
+    "component": "/home/acmc/repos/1light1child/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_d58f8a2e"
+  },
+  {
     "name": "index___en",
     "path": "/en",
     "component": "/home/acmc/repos/1light1child/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_961fd4a4"
+  },
+  {
+    "name": "about___en",
+    "path": "/en/about",
+    "component": "/home/acmc/repos/1light1child/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_d58f8a2e"
   },
   {
     "name": "index___it",

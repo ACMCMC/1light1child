@@ -1,4 +1,5 @@
-export { default as Hero } from '../../components/hero.vue'
+export { default as Card } from '../../components/card.vue'
+export { default as Navbar } from '../../components/navbar.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
