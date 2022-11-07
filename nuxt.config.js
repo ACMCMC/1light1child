@@ -66,6 +66,9 @@ export default {
             sign_up: 'Sign up',
             about_intro: 'We are a group of exchange students with the aim of improving our world. For this purpose, we have created the Association One Light, One Child, to organise the charity hike of the same name.',
             members: 'Members',
+            itinerary: 'Itinerary',
+            departure: 'Departure',
+            arrival: 'Arrival',
           }
         },
         it: {
@@ -80,6 +83,9 @@ export default {
             sign_up: 'Iscrivermi',
             about_intro: 'Siamo un gruppo di studenti di scambio, con l\'obiettivo di migliorari il nostro mondo. A questo scopo, abbiamo creato l\'Associazione One Light, One Child, per organizzare la camminata di beneficenza con lo stesso nome.',
             members: 'Membri',
+            itinerary: 'Percorso',
+            departure: 'Partenza',
+            arrival: 'Arrivo',
           }
         }
       }

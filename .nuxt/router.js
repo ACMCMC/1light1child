@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _d58f8a2e = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _961fd4a4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _50da9132 = () => interopDefault(import('../pages/itinerary.vue' /* webpackChunkName: "pages/itinerary" */))
 
 const emptyFn = () => {}
 
@@ -27,9 +28,17 @@ export const routerOptions = {
     component: _961fd4a4,
     name: "index___en"
   }, {
+    path: "/itinerary",
+    component: _50da9132,
+    name: "itinerary___it"
+  }, {
     path: "/en/about",
     component: _d58f8a2e,
     name: "about___en"
+  }, {
+    path: "/en/itinerary",
+    component: _50da9132,
+    name: "itinerary___en"
   }, {
     path: "/",
     component: _961fd4a4,

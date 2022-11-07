@@ -14,11 +14,25 @@
     "_name": "_961fd4a4"
   },
   {
+    "name": "itinerary___it",
+    "path": "/itinerary",
+    "component": "/home/acmc/repos/1light1child/pages/itinerary.vue",
+    "chunkName": "pages/itinerary",
+    "_name": "_50da9132"
+  },
+  {
     "name": "about___en",
     "path": "/en/about",
     "component": "/home/acmc/repos/1light1child/pages/about.vue",
     "chunkName": "pages/about",
     "_name": "_d58f8a2e"
+  },
+  {
+    "name": "itinerary___en",
+    "path": "/en/itinerary",
+    "component": "/home/acmc/repos/1light1child/pages/itinerary.vue",
+    "chunkName": "pages/itinerary",
+    "_name": "_50da9132"
   },
   {
     "name": "index___it",
