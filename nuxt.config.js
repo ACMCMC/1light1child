@@ -57,6 +57,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/i18n',
     '@nuxt/image',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -111,5 +112,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  sitemap: {
+    hostname: 'https://1light1child.cf',
+    gzip: true,
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ],
   }
 }
