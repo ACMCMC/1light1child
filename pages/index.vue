@@ -6,7 +6,7 @@
         <h2 class="font-bold mb-2">San Salvatore Hike</h2>
         <h2 class="font-bold mb-4">{{ $t('message.event_date') }}</h2>
       </div>
-      <img class="mb-4 rounded-lg" src="/background.png" />
+      <nuxt-img format="webp" sizes="sm:100vw md:50vw lg:400px" class="mb-4 rounded-lg" src="/background.png" />
       <div class="px-4 mb-8">
         <p class="mb-2 text-sm font-semibold">{{ $t('message.charity_event') }}</p>
         <p class="text-sm">{{ $t('message.all_income_to_charity', { 'link': 'Mary’s Meals' }) }}</p>
