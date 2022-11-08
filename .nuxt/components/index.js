@@ -1,4 +1,5 @@
 export { default as Card } from '../../components/card.vue'
+export { default as Heading } from '../../components/heading.vue'
 export { default as Navbar } from '../../components/navbar.vue'
 
 // nuxt/nuxt.js#8607

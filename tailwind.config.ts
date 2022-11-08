@@ -7,8 +7,8 @@ export default <Partial<Config>>{
         'home-background': "url('/background.png')",
       },
       fontFamily: {
-        display: ['Londrina Solid', 'sans-serif'],
-        sans: ['Helvetica', 'Arial', 'sans-serif'],
+        display: ['Chakra Petch', 'sans-serif'],
+        sans: ['Lexend Deca', 'Helvetica', 'Arial', 'sans-serif'],
       },
     }
   }

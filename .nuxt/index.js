@@ -13,6 +13,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_plugin_36537e1a from 'nuxt_plugin_plugin_36537e1a' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_image_5ff505aa from 'nuxt_plugin_image_5ff505aa' // Source: ./image.js (mode: 'all')
 import nuxt_plugin_pluginutils_121b57ea from 'nuxt_plugin_pluginutils_121b57ea' // Source: ./nuxt-i18n/plugin.utils.js (mode: 'all')
 import nuxt_plugin_pluginrouting_8ca3ead4 from 'nuxt_plugin_pluginrouting_8ca3ead4' // Source: ./nuxt-i18n/plugin.routing.js (mode: 'all')
 import nuxt_plugin_pluginmain_068ad899 from 'nuxt_plugin_pluginmain_068ad899' // Source: ./nuxt-i18n/plugin.main.js (mode: 'all')
@@ -66,7 +67,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"1light1child","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"One Light, One Child","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Join us on a solidarity hike in Lugano on November 26th! All earnings will be given to charity purposes to feed children in need."},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"preconnect","href":"https:\u002F\u002Ffonts.googleapis.com"},{"rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Chakra+Petch&family=Lexend+Deca&display=swap"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -182,6 +183,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_36537e1a === 'function') {
     await nuxt_plugin_plugin_36537e1a(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_image_5ff505aa === 'function') {
+    await nuxt_plugin_image_5ff505aa(app.context, inject)
   }
 
   if (typeof nuxt_plugin_pluginutils_121b57ea === 'function') {

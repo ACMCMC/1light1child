@@ -2,6 +2,9 @@
   "Card": {
     "description": "Auto imported from components/card.vue"
   },
+  "Heading": {
+    "description": "Auto imported from components/heading.vue"
+  },
   "Navbar": {
     "description": "Auto imported from components/navbar.vue"
   }

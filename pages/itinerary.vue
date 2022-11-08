@@ -1,7 +1,7 @@
 <template>
   <Card class="md:max-w-2xl w-4/5">
     <div>
-      <h1 class="font-bold font-display mb-4 text-4xl">{{ $t('message.itinerary') }}</h1>
+      <Heading class="mb-4" :title="$t('message.itinerary')"></Heading>
       <dl class="mb-4">
         <dt class="font-bold">{{ $t('message.departure')}}</dt>
         <dd>Lugano, Ticino</dd>
@@ -16,6 +16,7 @@
 <script>
 import Vue from 'vue'
 import Card from '~/components/card.vue';
+import Heading from '~/components/heading.vue';
 
 export default Vue.extend({
   name: "Itinerary",

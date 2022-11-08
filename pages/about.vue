@@ -1,10 +1,7 @@
 <template>
   <Card>
     <div>
-      <div class="mb-8">
-        <h1 class="font-bold font-display mb-4 text-4xl">{{ $t('message.about') }}</h1>
-        <p class="text-sm">{{ $t('message.about_intro') }}</p>
-      </div>
+      <Heading class="mb-8" :title="$t('message.about')" :subtitle="$t('message.about_intro')"></Heading>
       <div>
         <h2 class="font-bold mb-2">{{ $t('message.members') }}</h2>
         <ul class="list-disc pl-4" v-for="name in names" :key="name">
@@ -18,6 +15,7 @@
 <script>
 import Vue from 'vue'
 import Card from '~/components/card.vue';
+import Heading from '~/components/heading.vue';
 
 const names = [
   'Martina Krättli Torrens',
