@@ -27,7 +27,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lexend+Deca&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Londrina+Solid&display=swap'
       },
     ]
   },
