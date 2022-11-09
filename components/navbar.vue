@@ -3,7 +3,7 @@
         <div class="container flex flex-wrap justify-between items-center mx-auto justify-items-stretch">
             <a href="https://1light1child.cf/" class="flex items-center">
                 <!--<img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">-->
-                <img format="webp" sizes="5vw" fit="cover" src="/logo.svg" class="mr-3 h-6 sm:h-9" alt="One Light, One Child Logo"/>
+                <img src="/logo.svg" class="mr-3 h-6 sm:h-9" alt="One Light, One Child Logo"/>
                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">One Light, One Child</span>
             </a>
             <div class="flex md:order-2 items-center">

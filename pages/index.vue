@@ -4,7 +4,8 @@
       <Heading class="px-4" title="One Light, One Child" subtitle="San Salvatore Hike">
         <h2 class="font-bold mb-4 text-xl">{{ $t('message.event_date') }}</h2>
       </Heading>
-      <nuxt-img placeholder format="webp" fit="cover" class="mb-4 rounded-lg" src="/background.png" />
+      <img class="mb-4 rounded-lg" src="/background.png" />
+      <!--<nuxt-img class="mb-4 rounded-lg" src="/background.png" />-->
       <div class="px-4 mb-8">
         <p class="mb-2 text-sm font-semibold">{{ $t('message.charity_event') }}</p>
         <p class="text-sm">{{ $t('message.all_income_to_charity', { 'link': 'Mary’s Meals' }) }}</p>
