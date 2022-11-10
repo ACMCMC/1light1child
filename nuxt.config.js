@@ -38,6 +38,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/gtag.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -49,7 +50,6 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -123,8 +123,4 @@ export default {
       '/admin/**'
     ],
   },
-
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID,
-  }
 }

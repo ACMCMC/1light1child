@@ -48,7 +48,6 @@ export default Vue.extend({
     name: 'Navbar',
     computed: {
         availableLocales() {
-            console.log(this.$i18n.locales);
             return (this.$i18n.locales as string[]).filter(i => i !== this.$i18n.locale)
         }
     }
