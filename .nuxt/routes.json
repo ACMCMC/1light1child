@@ -8,6 +8,14 @@
     "_name": "_d58f8a2e"
   },
   {
+    "name": "conditions___it",
+    "path": "/conditions",
+    "component": "/home/acmc/repos/1light1child/pages/conditions.vue",
+    "chunkName": "pages/conditions",
+    "url": "/conditions",
+    "_name": "_0777448c"
+  },
+  {
     "name": "index___en",
     "path": "/en",
     "component": "/home/acmc/repos/1light1child/pages/index.vue",
@@ -16,12 +24,36 @@
     "_name": "_961fd4a4"
   },
   {
+    "name": "exemption-responsibility___it",
+    "path": "/exemption-responsibility",
+    "component": "/home/acmc/repos/1light1child/pages/exemption-responsibility.vue",
+    "chunkName": "pages/exemption-responsibility",
+    "url": "/exemption-responsibility",
+    "_name": "_468efc66"
+  },
+  {
     "name": "itinerary___it",
     "path": "/itinerary",
     "component": "/home/acmc/repos/1light1child/pages/itinerary.vue",
     "chunkName": "pages/itinerary",
     "url": "/itinerary",
     "_name": "_50da9132"
+  },
+  {
+    "name": "marys-meals___it",
+    "path": "/marys-meals",
+    "component": "/home/acmc/repos/1light1child/pages/marys-meals.vue",
+    "chunkName": "pages/marys-meals",
+    "url": "/marys-meals",
+    "_name": "_06606157"
+  },
+  {
+    "name": "project___it",
+    "path": "/project",
+    "component": "/home/acmc/repos/1light1child/pages/project.vue",
+    "chunkName": "pages/project",
+    "url": "/project",
+    "_name": "_1fc60916"
   },
   {
     "name": "register",
@@ -46,12 +78,44 @@
     "_name": "_d58f8a2e"
   },
   {
+    "name": "conditions___en",
+    "path": "/en/conditions",
+    "component": "/home/acmc/repos/1light1child/pages/conditions.vue",
+    "chunkName": "pages/conditions",
+    "url": "/en/conditions",
+    "_name": "_0777448c"
+  },
+  {
+    "name": "exemption-responsibility___en",
+    "path": "/en/exemption-responsibility",
+    "component": "/home/acmc/repos/1light1child/pages/exemption-responsibility.vue",
+    "chunkName": "pages/exemption-responsibility",
+    "url": "/en/exemption-responsibility",
+    "_name": "_468efc66"
+  },
+  {
     "name": "itinerary___en",
     "path": "/en/itinerary",
     "component": "/home/acmc/repos/1light1child/pages/itinerary.vue",
     "chunkName": "pages/itinerary",
     "url": "/en/itinerary",
     "_name": "_50da9132"
+  },
+  {
+    "name": "marys-meals___en",
+    "path": "/en/marys-meals",
+    "component": "/home/acmc/repos/1light1child/pages/marys-meals.vue",
+    "chunkName": "pages/marys-meals",
+    "url": "/en/marys-meals",
+    "_name": "_06606157"
+  },
+  {
+    "name": "project___en",
+    "path": "/en/project",
+    "component": "/home/acmc/repos/1light1child/pages/project.vue",
+    "chunkName": "pages/project",
+    "url": "/en/project",
+    "_name": "_1fc60916"
   },
   {
     "name": "signup___en",

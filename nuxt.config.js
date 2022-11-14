@@ -88,6 +88,11 @@ export default {
             itinerary: 'Itinerary',
             departure: 'Departure',
             arrival: 'Arrival',
+            marys_meals_intro: '',
+            marys_meals_description: 'Mary\'s Meals is an NGO which provides school meals to children living in some of the world’s poorest countries. We will donate all of our earnings to them. Specifically, for every 20,40 CHF raised, they can feed a child for an entire school year, about 9 months.',
+            project: 'Project',
+            project_intro: 'We work to create better living conditions for children in need',
+            project_description: 'On November 26th, we are organizing a walk on Monte San Salvatore with the motto "One Light, One Child." We would like to walk together with participants to the top of the mountain via one of the paths from the base, having each person bring a light. The idea is that each light would represent one of the children for whom we would raise funds. To be more precise, for every 20 francs raised we can feed one child for about 9 months (the entire school year). Therefore, we would like to get as much community involvement as possible.',
           }
         },
         it: {
@@ -105,6 +110,11 @@ export default {
             itinerary: 'Percorso',
             departure: 'Partenza',
             arrival: 'Arrivo',
+            marys_meals_intro: '',
+            marys_meals_description: 'Mary\'s Meals è una ONG che fornisce pasti scolastici ai bambini che vivono in alcuni dei Paesi più poveri del mondo. Doneremo a loro tutti i nostri guadagni. In particolare, per ogni 20,40 CHF raccolti, è possibile sfamare un bambino per un intero anno scolastico, circa 9 mesi.',
+            project: 'Progetto',
+            project_intro: 'Lavoriamo per creare migliori condizioni di vita per i bambini in difficoltà',
+            project_description: 'Il 26 Novembre, organizziamo una camminata sul Monte San Salvatore con il motto "One Light, One Child”. Vorremmo camminare insieme ai partecipanti fino in cima alla montagna attraverso uno dei sentieri che parte dalla base, facendo portare da ciascuno una luce. L\'idea è che ogni luce rappresenti uno dei bambini per i quali raccoglieremmo fondi. Per essere più precisi, per ogni 20 franchi raccolti possiamo sfamare un bambino per circa 9 mesi (l’intero anno scolastico). Per questo motivo vorremmo ottenere il maggior coinvolgimento possibile da parte della comunità.',
           }
         }
       }
