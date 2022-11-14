@@ -24,6 +24,20 @@
     "_name": "_50da9132"
   },
   {
+    "name": "register",
+    "path": "/register",
+    "url": "/register",
+    "_name": "_29172c1a"
+  },
+  {
+    "name": "signup___it",
+    "path": "/signup",
+    "component": "/home/acmc/repos/1light1child/pages/signup.vue",
+    "chunkName": "pages/signup",
+    "url": "/signup",
+    "_name": "_be8d6628"
+  },
+  {
     "name": "about___en",
     "path": "/en/about",
     "component": "/home/acmc/repos/1light1child/pages/about.vue",
@@ -38,6 +52,14 @@
     "chunkName": "pages/itinerary",
     "url": "/en/itinerary",
     "_name": "_50da9132"
+  },
+  {
+    "name": "signup___en",
+    "path": "/en/signup",
+    "component": "/home/acmc/repos/1light1child/pages/signup.vue",
+    "chunkName": "pages/signup",
+    "url": "/en/signup",
+    "_name": "_be8d6628"
   },
   {
     "name": "index___it",

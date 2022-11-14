@@ -8,6 +8,8 @@ const _d58f8a2e = () => interopDefault(import('../pages/about.vue' /* webpackChu
 const _961fd4a4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _50da9132 = () => interopDefault(import('../pages/itinerary.vue' /* webpackChunkName: "pages/itinerary" */))
 
+const _be8d6628 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
+
 const emptyFn = () => {}
 
 Vue.use(Router)
@@ -32,6 +34,16 @@ export const routerOptions = {
     component: _50da9132,
     name: "itinerary___it"
   }, {
+    path: "/register",
+    name: "register",
+    beforeEnter: function(to, from, next) {
+          window.location.replace("https://www.marysmeals.es/captacion-de-fondos/proyecto/martina-kraettli/one-light-one-child");
+        }
+  }, {
+    path: "/signup",
+    component: _be8d6628,
+    name: "signup___it"
+  }, {
     path: "/en/about",
     component: _d58f8a2e,
     name: "about___en"
@@ -39,6 +51,10 @@ export const routerOptions = {
     path: "/en/itinerary",
     component: _50da9132,
     name: "itinerary___en"
+  }, {
+    path: "/en/signup",
+    component: _be8d6628,
+    name: "signup___en"
   }, {
     path: "/",
     component: _961fd4a4,

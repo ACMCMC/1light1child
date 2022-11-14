@@ -123,4 +123,16 @@ export default {
       '/admin/**'
     ],
   },
+
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'register',
+        path: '/register',
+        beforeEnter(to, from, next) {
+          window.location.replace("https://www.marysmeals.es/captacion-de-fondos/proyecto/martina-kraettli/one-light-one-child")
+        }
+      })
+    }
+  }
 }
