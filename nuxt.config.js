@@ -93,6 +93,9 @@ export default {
             project: 'Project',
             project_intro: 'We work to create better living conditions for children in need',
             project_description: 'On November 26th, we are organizing a walk on Monte San Salvatore with the motto "One Light, One Child." We would like to walk together with participants to the top of the mountain via one of the paths from the base, having each person bring a light. The idea is that each light would represent one of the children for whom we would raise funds. To be more precise, for every 20 francs raised we can feed one child for about 9 months (the entire school year). Therefore, we would like to get as much community involvement as possible.',
+            general_conditions_participation: 'General conditions of participation',
+            data_protection: 'Data protection',
+            content_only_in_italian: 'This content is only available in italian.',
           }
         },
         it: {
@@ -115,6 +118,9 @@ export default {
             project: 'Progetto',
             project_intro: 'Lavoriamo per creare migliori condizioni di vita per i bambini in difficoltà',
             project_description: 'Il 26 Novembre, organizziamo una camminata sul Monte San Salvatore con il motto "One Light, One Child”. Vorremmo camminare insieme ai partecipanti fino in cima alla montagna attraverso uno dei sentieri che parte dalla base, facendo portare da ciascuno una luce. L\'idea è che ogni luce rappresenti uno dei bambini per i quali raccoglieremmo fondi. Per essere più precisi, per ogni 20 franchi raccolti possiamo sfamare un bambino per circa 9 mesi (l’intero anno scolastico). Per questo motivo vorremmo ottenere il maggior coinvolgimento possibile da parte della comunità.',
+            general_conditions_participation: 'Condizioni generali di partecipazione',
+            data_protection: 'Protezione dei dati',
+            content_only_in_italian: 'Questo contenuto è disponibile solo in italiano.'
           }
         }
       }

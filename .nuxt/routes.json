@@ -16,20 +16,20 @@
     "_name": "_0777448c"
   },
   {
+    "name": "data-protection___it",
+    "path": "/data-protection",
+    "component": "/home/acmc/repos/1light1child/pages/data-protection.vue",
+    "chunkName": "pages/data-protection",
+    "url": "/data-protection",
+    "_name": "_879cc890"
+  },
+  {
     "name": "index___en",
     "path": "/en",
     "component": "/home/acmc/repos/1light1child/pages/index.vue",
     "chunkName": "pages/index",
     "url": "/en",
     "_name": "_961fd4a4"
-  },
-  {
-    "name": "exemption-responsibility___it",
-    "path": "/exemption-responsibility",
-    "component": "/home/acmc/repos/1light1child/pages/exemption-responsibility.vue",
-    "chunkName": "pages/exemption-responsibility",
-    "url": "/exemption-responsibility",
-    "_name": "_468efc66"
   },
   {
     "name": "itinerary___it",
@@ -86,12 +86,12 @@
     "_name": "_0777448c"
   },
   {
-    "name": "exemption-responsibility___en",
-    "path": "/en/exemption-responsibility",
-    "component": "/home/acmc/repos/1light1child/pages/exemption-responsibility.vue",
-    "chunkName": "pages/exemption-responsibility",
-    "url": "/en/exemption-responsibility",
-    "_name": "_468efc66"
+    "name": "data-protection___en",
+    "path": "/en/data-protection",
+    "component": "/home/acmc/repos/1light1child/pages/data-protection.vue",
+    "chunkName": "pages/data-protection",
+    "url": "/en/data-protection",
+    "_name": "_879cc890"
   },
   {
     "name": "itinerary___en",

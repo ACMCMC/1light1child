@@ -6,8 +6,8 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _d58f8a2e = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _0777448c = () => interopDefault(import('../pages/conditions.vue' /* webpackChunkName: "pages/conditions" */))
+const _879cc890 = () => interopDefault(import('../pages/data-protection.vue' /* webpackChunkName: "pages/data-protection" */))
 const _961fd4a4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _468efc66 = () => interopDefault(import('../pages/exemption-responsibility.vue' /* webpackChunkName: "pages/exemption-responsibility" */))
 const _50da9132 = () => interopDefault(import('../pages/itinerary.vue' /* webpackChunkName: "pages/itinerary" */))
 const _06606157 = () => interopDefault(import('../pages/marys-meals.vue' /* webpackChunkName: "pages/marys-meals" */))
 const _1fc60916 = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
@@ -34,13 +34,13 @@ export const routerOptions = {
     component: _0777448c,
     name: "conditions___it"
   }, {
+    path: "/data-protection",
+    component: _879cc890,
+    name: "data-protection___it"
+  }, {
     path: "/en",
     component: _961fd4a4,
     name: "index___en"
-  }, {
-    path: "/exemption-responsibility",
-    component: _468efc66,
-    name: "exemption-responsibility___it"
   }, {
     path: "/itinerary",
     component: _50da9132,
@@ -72,9 +72,9 @@ export const routerOptions = {
     component: _0777448c,
     name: "conditions___en"
   }, {
-    path: "/en/exemption-responsibility",
-    component: _468efc66,
-    name: "exemption-responsibility___en"
+    path: "/en/data-protection",
+    component: _879cc890,
+    name: "data-protection___en"
   }, {
     path: "/en/itinerary",
     component: _50da9132,
