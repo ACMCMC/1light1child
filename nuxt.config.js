@@ -100,6 +100,10 @@ export default {
             comment_departure_bus_stop: '3 minute walk from the bus stop “Pazzallo, Paese”',
             departure_place: 'End of Via Funicolare',
             arrival_place: 'Top of Monte San Salvatore',
+            got_it: 'Got it',
+            information: 'Information',
+            warning_redirect_marysmeals: 'On the next website, please choose to go to the Spanish website.',
+            warning: 'Warning!',
           }
         },
         it: {
@@ -129,6 +133,10 @@ export default {
             comment_departure_bus_stop: '3 minuti a piedi dalla fermata del bus “Pazzallo, Paese”',
             departure_place: 'Fine di Via Funicolare',
             arrival_place: 'Cima del Monte San Salvatore',
+            got_it: 'Ho capito',
+            information: 'Informazione',
+            warning_redirect_marysmeals: 'Nella prossima paggina, scegli di andare sul sito spagnolo.',
+            warning: 'Attenzione!',
           }
         }
       }
@@ -150,13 +158,11 @@ export default {
 
   router: {
     extendRoutes(routes, resolve) {
-      routes.push({
-        name: 'register',
-        path: '/register',
-        beforeEnter(to, from, next) {
-          window.location.replace("https://www.marysmeals.es/captacion-de-fondos/proyecto/martina-kraettli/one-light-one-child")
-        }
-      })
+      /*routes.push({
+        name: 'home',
+        path: '/signup',
+        component: resolve(__dirname, '/')
+      })*/
     }
   }
 }

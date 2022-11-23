@@ -48,6 +48,14 @@
     "_name": "_06606157"
   },
   {
+    "name": "perform_redirect_marysmeals___it",
+    "path": "/perform_redirect_marysmeals",
+    "component": "/home/acmc/repos/1light1child/pages/perform_redirect_marysmeals.vue",
+    "chunkName": "pages/perform_redirect_marysmeals",
+    "url": "/perform_redirect_marysmeals",
+    "_name": "_6ffe15d9"
+  },
+  {
     "name": "project___it",
     "path": "/project",
     "component": "/home/acmc/repos/1light1child/pages/project.vue",
@@ -56,10 +64,12 @@
     "_name": "_1fc60916"
   },
   {
-    "name": "register",
-    "path": "/register",
-    "url": "/register",
-    "_name": "_29172c1a"
+    "name": "redirect_marysmeals___it",
+    "path": "/redirect_marysmeals",
+    "component": "/home/acmc/repos/1light1child/pages/redirect_marysmeals.vue",
+    "chunkName": "pages/redirect_marysmeals",
+    "url": "/redirect_marysmeals",
+    "_name": "_4f9680b7"
   },
   {
     "name": "signup___it",
@@ -110,12 +120,28 @@
     "_name": "_06606157"
   },
   {
+    "name": "perform_redirect_marysmeals___en",
+    "path": "/en/perform_redirect_marysmeals",
+    "component": "/home/acmc/repos/1light1child/pages/perform_redirect_marysmeals.vue",
+    "chunkName": "pages/perform_redirect_marysmeals",
+    "url": "/en/perform_redirect_marysmeals",
+    "_name": "_6ffe15d9"
+  },
+  {
     "name": "project___en",
     "path": "/en/project",
     "component": "/home/acmc/repos/1light1child/pages/project.vue",
     "chunkName": "pages/project",
     "url": "/en/project",
     "_name": "_1fc60916"
+  },
+  {
+    "name": "redirect_marysmeals___en",
+    "path": "/en/redirect_marysmeals",
+    "component": "/home/acmc/repos/1light1child/pages/redirect_marysmeals.vue",
+    "chunkName": "pages/redirect_marysmeals",
+    "url": "/en/redirect_marysmeals",
+    "_name": "_4f9680b7"
   },
   {
     "name": "signup___en",
