@@ -6,13 +6,14 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _d58f8a2e = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _0777448c = () => interopDefault(import('../pages/conditions.vue' /* webpackChunkName: "pages/conditions" */))
+const _2a91f8fc = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _879cc890 = () => interopDefault(import('../pages/data-protection.vue' /* webpackChunkName: "pages/data-protection" */))
 const _961fd4a4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _50da9132 = () => interopDefault(import('../pages/itinerary.vue' /* webpackChunkName: "pages/itinerary" */))
 const _06606157 = () => interopDefault(import('../pages/marys-meals.vue' /* webpackChunkName: "pages/marys-meals" */))
-const _6ffe15d9 = () => interopDefault(import('../pages/perform_redirect_marysmeals.vue' /* webpackChunkName: "pages/perform_redirect_marysmeals" */))
+const _aa5524ce = () => interopDefault(import('../pages/perform-redirect-marysmeals.vue' /* webpackChunkName: "pages/perform-redirect-marysmeals" */))
 const _1fc60916 = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
-const _4f9680b7 = () => interopDefault(import('../pages/redirect_marysmeals.vue' /* webpackChunkName: "pages/redirect_marysmeals" */))
+const _7a887ff6 = () => interopDefault(import('../pages/redirect-marysmeals.vue' /* webpackChunkName: "pages/redirect-marysmeals" */))
 const _be8d6628 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
 
 const emptyFn = () => {}
@@ -35,6 +36,10 @@ export const routerOptions = {
     component: _0777448c,
     name: "conditions___it"
   }, {
+    path: "/contact",
+    component: _2a91f8fc,
+    name: "contact___it"
+  }, {
     path: "/data-protection",
     component: _879cc890,
     name: "data-protection___it"
@@ -51,17 +56,17 @@ export const routerOptions = {
     component: _06606157,
     name: "marys-meals___it"
   }, {
-    path: "/perform_redirect_marysmeals",
-    component: _6ffe15d9,
-    name: "perform_redirect_marysmeals___it"
+    path: "/perform-redirect-marysmeals",
+    component: _aa5524ce,
+    name: "perform-redirect-marysmeals___it"
   }, {
     path: "/project",
     component: _1fc60916,
     name: "project___it"
   }, {
-    path: "/redirect_marysmeals",
-    component: _4f9680b7,
-    name: "redirect_marysmeals___it"
+    path: "/redirect-marysmeals",
+    component: _7a887ff6,
+    name: "redirect-marysmeals___it"
   }, {
     path: "/signup",
     component: _be8d6628,
@@ -75,6 +80,10 @@ export const routerOptions = {
     component: _0777448c,
     name: "conditions___en"
   }, {
+    path: "/en/contact",
+    component: _2a91f8fc,
+    name: "contact___en"
+  }, {
     path: "/en/data-protection",
     component: _879cc890,
     name: "data-protection___en"
@@ -87,17 +96,17 @@ export const routerOptions = {
     component: _06606157,
     name: "marys-meals___en"
   }, {
-    path: "/en/perform_redirect_marysmeals",
-    component: _6ffe15d9,
-    name: "perform_redirect_marysmeals___en"
+    path: "/en/perform-redirect-marysmeals",
+    component: _aa5524ce,
+    name: "perform-redirect-marysmeals___en"
   }, {
     path: "/en/project",
     component: _1fc60916,
     name: "project___en"
   }, {
-    path: "/en/redirect_marysmeals",
-    component: _4f9680b7,
-    name: "redirect_marysmeals___en"
+    path: "/en/redirect-marysmeals",
+    component: _7a887ff6,
+    name: "redirect-marysmeals___en"
   }, {
     path: "/en/signup",
     component: _be8d6628,
