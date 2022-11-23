@@ -2,7 +2,8 @@
   <Card component="abc">
     <div>
       <Heading class="px-4" title="One Light, One Child" subtitle="San Salvatore Hike">
-        <h2 class="font-bold mb-4 text-xl">{{ $t('message.event_date') }}</h2>
+        <h2 class="font-bold mt-4 text-xl">📆 {{ $t('message.event_date') }}</h2>
+        <h2 class="font-bold mb-4 text-xl">⏰ {{ $t('message.event_time') }}</h2>
       </Heading>
       <img class="mb-4 rounded-lg" src="/background.png" />
       <!--<nuxt-img class="mb-4 rounded-lg" src="/background.png" />-->

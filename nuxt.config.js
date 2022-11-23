@@ -77,6 +77,7 @@ export default {
           message: {
             find_out_more: 'Find out more',
             event_date: 'November 26th, 2022',
+            event_time: '16:30h',
             copyright_notice: '© 2022. Association One Light, One Child',
             charity_event: 'Charity event.',
             all_income_to_charity: 'All net earnings will be donated to {link} to serve nutritious school meals to children living in some of the world’s poorest countries. The promise of a good meal attracts these hungry children into the classroom, giving them the energy to learn and hope for a better future.',
@@ -96,12 +97,16 @@ export default {
             general_conditions_participation: 'General conditions of participation',
             data_protection: 'Data protection',
             content_only_in_italian: 'This content is only available in italian.',
+            comment_departure_bus_stop: '3 minute walk from the bus stop “Pazzallo, Paese”',
+            departure_place: 'End of Via Funicolare',
+            arrival_place: 'Top of Monte San Salvatore',
           }
         },
         it: {
           message: {
             find_out_more: 'Scopri di più',
             event_date: '26 novembre, 2022',
+            event_time: '16:30h',
             copyright_notice: '© 2022. Association One Light, One Child',
             charity_event: 'Evento di beneficenza.',
             all_income_to_charity: 'Tutti i guadagni netti saranno devoluti a {link} per servire pasti scolastici nutrienti ai bambini che vivono in alcuni dei paesi più poveri del mondo. La promessa di un buon pasto attira questi bambini affamati in classe, dando loro l’energia per imparare e sperare in un futuro migliore.',
@@ -120,7 +125,10 @@ export default {
             project_description: 'Il 26 Novembre, organizziamo una camminata sul Monte San Salvatore con il motto "One Light, One Child”. Vorremmo camminare insieme ai partecipanti fino in cima alla montagna attraverso uno dei sentieri che parte dalla base, facendo portare da ciascuno una luce. L\'idea è che ogni luce rappresenti uno dei bambini per i quali raccoglieremmo fondi. Per essere più precisi, per ogni 20 franchi raccolti possiamo sfamare un bambino per circa 9 mesi (l’intero anno scolastico). Per questo motivo vorremmo ottenere il maggior coinvolgimento possibile da parte della comunità.',
             general_conditions_participation: 'Condizioni generali di partecipazione',
             data_protection: 'Protezione dei dati',
-            content_only_in_italian: 'Questo contenuto è disponibile solo in italiano.'
+            content_only_in_italian: 'Questo contenuto è disponibile solo in italiano.',
+            comment_departure_bus_stop: '3 minuti a piedi dalla fermata del bus “Pazzallo, Paese”',
+            departure_place: 'Fine di Via Funicolare',
+            arrival_place: 'Cima del Monte San Salvatore',
           }
         }
       }
