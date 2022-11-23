@@ -75,7 +75,7 @@ export default {
       messages: {
         en: {
           message: {
-            find_out_more: 'Find out more',
+            find_out_more: '➕ Find out more',
             event_date: 'November 26th, 2022',
             event_time: '16:30h',
             copyright_notice: '© 2022. Association One Light, One Child',
@@ -100,15 +100,15 @@ export default {
             comment_departure_bus_stop: '3 minute walk from the bus stop “Pazzallo, Paese”',
             departure_place: 'End of Via Funicolare',
             arrival_place: 'Top of Monte San Salvatore',
-            got_it: 'Got it',
-            information: 'Information',
+            got_it: '✅ Got it',
+            information: '❔ Information',
             warning_redirect_marysmeals: 'On the next website, please choose to go to the Spanish website.',
-            warning: 'Warning!',
+            warning: '⚠ Warning!',
           }
         },
         it: {
           message: {
-            find_out_more: 'Scopri di più',
+            find_out_more: '➕ Scopri di più',
             event_date: '26 novembre, 2022',
             event_time: '16:30h',
             copyright_notice: '© 2022. Association One Light, One Child',
@@ -116,7 +116,7 @@ export default {
             all_income_to_charity: 'Tutti i guadagni netti saranno devoluti a {link} per servire pasti scolastici nutrienti ai bambini che vivono in alcuni dei paesi più poveri del mondo. La promessa di un buon pasto attira questi bambini affamati in classe, dando loro l’energia per imparare e sperare in un futuro migliore.',
             home: 'Home',
             about: 'Chi siamo',
-            sign_up: 'Iscrivermi',
+            sign_up: '📝 Iscrivermi',
             about_intro: 'Siamo un gruppo di studenti di scambio, con l\'obiettivo di migliorari il nostro mondo. A questo scopo, abbiamo creato l\'Associazione One Light, One Child, per organizzare la camminata di beneficenza con lo stesso nome.',
             members: 'Membri',
             itinerary: 'Percorso',
@@ -133,10 +133,10 @@ export default {
             comment_departure_bus_stop: '3 minuti a piedi dalla fermata del bus “Pazzallo, Paese”',
             departure_place: 'Fine di Via Funicolare',
             arrival_place: 'Cima del Monte San Salvatore',
-            got_it: 'Ho capito',
-            information: 'Informazione',
+            got_it: '✅ Ho capito',
+            information: '❔ Informazione',
             warning_redirect_marysmeals: 'Nella prossima paggina, scegli di andare sul sito spagnolo.',
-            warning: 'Attenzione!',
+            warning: '⚠ Attenzione!',
           }
         }
       }
