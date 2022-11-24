@@ -34,11 +34,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+  '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/gtag.js', mode: 'client' }
+    { src: '~/plugins/gtag.js', mode: 'client' },
+    '~/plugins/fontawesome.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -108,7 +110,7 @@ export default {
             free: 'Free',
             donate_as_much_as_you_want: 'You can donate as much as you want, but it is optional!',
             contact: 'Contact',
-            reach_out_to_us: 'Reach out to us by any of the following channels:',
+            reach_out_to_us: 'Reach out to us by any of the following channels',
           }
         },
         it: {
@@ -146,7 +148,7 @@ export default {
             free: 'Gratis',
             donate_as_much_as_you_want: 'Potete donare quanto volete, ma è facoltativo!',
             contact: 'Contatto',
-            reach_out_to_us: 'Contattateci attraverso uno dei seguenti canali:',
+            reach_out_to_us: 'Contattateci attraverso uno dei seguenti canali',
           }
         }
       }
