@@ -85,7 +85,7 @@ export default {
             all_income_to_charity: 'All net earnings will be donated to {link} to serve nutritious school meals to children living in some of the world’s poorest countries. The promise of a good meal attracts these hungry children into the classroom, giving them the energy to learn and hope for a better future.',
             home: 'Home',
             about: 'About',
-            sign_up: '📝 Donate',
+            sign_up: '🫶 Donate',
             about_intro: 'We are a group of exchange students with the aim of improving our world. For this purpose, we have created the Association One Light, One Child, to organise the charity hike of the same name.',
             members: 'Members',
             itinerary: 'Itinerary',
@@ -109,7 +109,7 @@ export default {
             price: 'Price',
             free: 'Free',
             donate_as_much_as_you_want: 'You can donate as much as you want, but it is optional!',
-            contact: 'Contact',
+            contact: '💬 Contact',
             reach_out_to_us: 'Reach out to us by any of the following channels',
           }
         },
@@ -123,7 +123,7 @@ export default {
             all_income_to_charity: 'Tutti i guadagni netti saranno devoluti a {link} per servire pasti scolastici nutrienti ai bambini che vivono in alcuni dei paesi più poveri del mondo. La promessa di un buon pasto attira questi bambini affamati in classe, dando loro l’energia per imparare e sperare in un futuro migliore.',
             home: 'Home',
             about: 'Chi siamo',
-            sign_up: '📝 Donare',
+            sign_up: '🫶 Donare',
             about_intro: 'Siamo un gruppo di studenti di scambio, con l\'obiettivo di migliorari il nostro mondo. A questo scopo, abbiamo creato l\'Associazione One Light, One Child, per organizzare la camminata di beneficenza con lo stesso nome.',
             members: 'Membri',
             itinerary: 'Percorso',
@@ -147,7 +147,7 @@ export default {
             price: 'Prezzo',
             free: 'Gratis',
             donate_as_much_as_you_want: 'Potete donare quanto volete, ma è facoltativo!',
-            contact: 'Contatto',
+            contact: '💬 Contatto',
             reach_out_to_us: 'Contattateci attraverso uno dei seguenti canali',
           }
         }
