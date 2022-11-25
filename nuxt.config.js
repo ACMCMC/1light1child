@@ -111,6 +111,8 @@ export default {
             donate_as_much_as_you_want: 'You can donate as much as you want, but it is optional!',
             contact: '💬 Contact',
             reach_out_to_us: 'Reach out to us by any of the following channels',
+            join_whatsapp_group: 'To get real-time information about the event, join our WhatsApp group!',
+            join: 'Join us!'
           }
         },
         it: {
@@ -149,6 +151,8 @@ export default {
             donate_as_much_as_you_want: 'Potete donare quanto volete, ma è facoltativo!',
             contact: '💬 Contatto',
             reach_out_to_us: 'Contattateci attraverso uno dei seguenti canali',
+            join_whatsapp_group: 'Per ricevere informazioni in tempo reale sull\'evento, iscriviti al nostro gruppo WhatsApp!',
+            join: 'Unisciti!'
           }
         }
       }
