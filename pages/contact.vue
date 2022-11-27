@@ -4,7 +4,7 @@
       <Heading class="mb-8" :title="$t('message.contact')" :subtitle="$t('message.reach_out_to_us')"></Heading>
       <div>
         <div class="container rounded-lg bg-red-600 border-solid border-black border-4 text-white my-8 p-8">
-          <div class="content-start flex flex-col w-full mb-4">
+          <div class="items-start flex flex-col w-full mb-4">
             <font-awesome-icon icon="triangle-exclamation" class="text-5xl text-yellow-500" />
           </div>
           <p class="font-bold mb-4">{{ $t('message.join_whatsapp_group') }}</p>

@@ -2,17 +2,6 @@
   <Card component="abc">
     <div>
       <Heading class="px-4" title="One Light, One Child" subtitle="San Salvatore Hike">
-        <div class="container rounded-lg bg-red-600 border-solid border-black border-4 text-white my-8 p-8">
-          <div class="content-start flex flex-col w-full mb-4">
-            <font-awesome-icon icon="triangle-exclamation" class="text-5xl text-yellow-500" />
-          </div>
-          <p class="font-bold mb-4">{{ $t('message.join_whatsapp_group') }}</p>
-          <div class="flex w-full">
-            <a class="text-white hover:text-black bg-black hover:bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center md:mr-0 w-full" href="https://chat.whatsapp.com/EG7nQM6dbDR5IRzqojgq2O">
-              {{ $t('message.join') }}
-            </a>
-          </div>
-        </div>
         <h2 class="font-bold mt-4 text-xl">📆 {{ $t('message.event_date') }}</h2>
         <h2 class="font-bold text-xl">⏰ {{ $t('message.event_time') }}</h2>
         <h2 class="font-bold text-xl mb-8">📍 <NuxtLink to="/itinerary" class="underline text-blue-700">{{ $t('message.departure_place') }}</NuxtLink>

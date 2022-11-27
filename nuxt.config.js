@@ -112,7 +112,10 @@ export default {
             contact: '💬 Contact',
             reach_out_to_us: 'Reach out to us by any of the following channels',
             join_whatsapp_group: 'To get real-time information about the event, join our WhatsApp group!',
-            join: 'Join us!'
+            join: 'Join us!',
+            event_finished: 'The event is now finished.',
+            thanks_for_participating: 'Thanks a lot for your participation!',
+            thanks_body: 'With your collaboration, we have been able to help Mary\'s Meals provide food for more than 22 children! This is a great achievement.'
           }
         },
         it: {
@@ -152,7 +155,10 @@ export default {
             contact: '💬 Contatto',
             reach_out_to_us: 'Contattateci attraverso uno dei seguenti canali',
             join_whatsapp_group: 'Per ricevere informazioni in tempo reale sull\'evento, iscriviti al nostro gruppo WhatsApp!',
-            join: 'Unisciti!'
+            join: 'Unisciti!',
+            event_finished: 'L\'evento è finito.',
+            thanks_for_participating: 'Grazzie mille per la vostra partecipazione!',
+            thanks_body: 'Grazie alla vostra collaborazione, siamo riusciti ad aiutare Mary\'s Meals a fornire cibo a più di 22 bambini! È un grandissimo risultato.'
           }
         }
       }
