@@ -115,7 +115,7 @@ export default {
             join: 'Join us!',
             event_finished: 'The event is now finished.',
             thanks_for_participating: 'Thanks a lot for your participation!',
-            thanks_body: 'With your collaboration, we have been able to help Mary\'s Meals provide food for more than 22 children! This is a great achievement.'
+            thanks_body: 'With your collaboration, we have been able to help Mary\'s Meals provide food for more than 33 children! This is a great achievement.'
           }
         },
         it: {
@@ -158,7 +158,7 @@ export default {
             join: 'Unisciti!',
             event_finished: 'L\'evento è finito.',
             thanks_for_participating: 'Grazzie mille per la vostra partecipazione!',
-            thanks_body: 'Grazie alla vostra collaborazione, siamo riusciti ad aiutare Mary\'s Meals a fornire cibo a più di 22 bambini! È un grandissimo risultato.'
+            thanks_body: 'Grazie alla vostra collaborazione, siamo riusciti ad aiutare Mary\'s Meals a fornire cibo a più di 33 bambini! È un grandissimo risultato.'
           }
         }
       }
